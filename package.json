@@ -1,0 +1,20 @@
+{
+	"name": "calculator-fullstack",
+	"version": "1.2.3",
+	"main": "index.js",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"cross-env": "^7.0.3",
+		"dotenv": "^8.0.0",
+		"express": "4.17.1",
+		"jest": "^29.7.0",
+		"request": "2.88.0",
+		"supertest": "^6.3.4"
+	},
+	"scripts": {
+		"start": "node server.js",
+		"testAndStop": "jest",
+		"test": "jest --watchAll",
+		"installDependencies": "npm i"
+	}
+}
